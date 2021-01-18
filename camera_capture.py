@@ -13,6 +13,7 @@ def error_cb(err):
 # 轉換msgKey或msgValue成為utf-8的字串
 def try_decode_utf8(data):
     if data:
+        print("成功")
         return data.decode('utf-8')
     else:
         return None
